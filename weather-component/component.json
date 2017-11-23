@@ -1,0 +1,17 @@
+{
+  "name": "weather-component",
+  "displayName": "weather-component",
+  "description": "Wrapper for Weather Component",
+  "version": "1.0.0",
+  "jetVersion": "^4.0.0",
+  "properties": {
+      "iconUrl": {"type": "string"},
+      "tempMeasure":{"type": "number"},
+      "city": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      }
+    }
+}

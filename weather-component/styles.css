@@ -1,0 +1,35 @@
+#icon{
+  width: 120%;
+  height: 120%;
+  display: inline-block;
+  }
+#measure{
+  position: relative;
+  font-size: 2em;
+  top:-20px;
+}
+/*.image {
+  width: 100%:
+}*/
+#weather-container{
+  position: relative;
+  width: 200px;
+}
+.wob_t{
+  position: relative;
+  top: -108px;
+}
+
+#weather-img-cover{
+  width: 70px;
+  height: 40px;
+}
+
+.card {
+  width: 50%;
+  height: 20%;
+}
+
+#description {
+  font-weight: bold;
+}

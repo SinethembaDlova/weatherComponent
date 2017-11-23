@@ -1,0 +1,69 @@
+<!--
+<div class="card">
+  <div id="weather-img-cover">
+    <a>
+      <div class="image" id="icon" data-bind="style: { 'background': iconUrl, 'background-repeat':'no-repeat'}"></div>
+    </a>
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <h6>Current Temperature:</h6> <span>
+      <h1 class="mt-4 ml-4 text-center" data-bind="text:tempMeasure"></h1>
+    </span>
+      <h4>&#x2103;</h4>
+    </div>
+
+    <div class="row">
+      <h6>Max Temperature:</h6> <span>
+      <h1 class="mt-4 ml-4 text-center" data-bind="text:maxTemp"></h1>
+    </span>
+      <h4>&#x2103;</h4>
+    </div>
+
+    <div class="row">
+      <h6>Min Temperature:</h6> <span>
+      <h1 class="mt-4 ml-4 text-center" data-bind="text:minTemp"></h1>
+    </span>
+      <h4>&#x2103;</h4>
+    </div>
+
+    <div class="row">
+      <p class="text-center" data-bind="text: description" id="description"></p>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="ui cards">
+  <div class="card border border-primary ml-auto">
+    <div class="content">
+      <div class="float-right mr-4" id="weather-img-cover">
+        <a>
+          <div class="image" id="icon" data-bind="style: { 'background': iconUrl, 'background-repeat':'no-repeat', 'margin-top': '-12px'}"></div>
+        </a>
+      </div>
+      <div class="header">
+        <h1 data-bind="text:tempMeasure" style="display:inline"></h1><span style="vertical-align: super;">&#x2103;</span>
+      </div>
+
+      <div class="description">
+        <div class="row">
+
+          <span>
+            <h3 class="ml-4 text-center" data-bind="text:minTemp"></h3>
+          </span>
+          <h6>&#x2103; | </h6>
+
+          <span>
+            <h3 class="ml-2 text-center" data-bind="text:maxTemp"></h3>
+          </span>
+          <h6>&#x2103;</h6>
+
+          <div class="ml-5">
+          <p class="text-center float-right" data-bind="text: description" id="description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
